@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/background.jpg);
+}
+header{
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header h1{
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255,255, 255, 0.2);
+}
+nav{
+    padding: 0 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    padding: 0 20px;
+}
+nav ul li a{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.principal h2{
+    align-items: center;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.principal h1{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.area h2{
+    align-items: center;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.calendario img{
+    width: 690px;
+    height: 600px;
+}
+.calendario a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+
+}
+table{
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+}
+tr, td{
+    padding: 5px 10px;
+}
+td{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.aulas h2{
+    align-items: center;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.aulas a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+.nota{
+    font-weight: bold;
+}
+.nota h2{
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline
+}
+.nota a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+.pais a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+.pais img{
+    width: 490px;
+    height: 300px;
+    align-items: center;
+}
+.input{
+    border-radius: 5px;
+    margin-bottom: 1em;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+.textarea{
+    border-radius: 5px;
+    margin-bottom: 1em;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+}
+.professor h2{
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.professor a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25%;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.financeiro h2{
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.financeiro div label{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    padding-right: 80px;
+    
+}
+.rgm label{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items:center;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;
+    width: 30%;
+   
+}
+.form-group{
+    border-radius: 5px;
+    margin-bottom: 1em;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    background-color: azure;
+    font-weight: bold;
+}
+.btnfin{
+    padding: 10px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.senha label{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    align-items:center;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.restrito p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.restrito h2{
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.restrito h1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
